@@ -1,0 +1,28 @@
+#grid1,
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+
+.team {
+  display: grid;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+.name{
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  margin-top: 20px;
+  height: 230px;
+  width: 230px;
+}
+
+p{
+    margin-left: 20px;
+}
